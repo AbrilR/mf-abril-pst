@@ -1,0 +1,58 @@
+body {
+    background-color: blue;
+}
+/*.mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}*/
+.square {
+    height: 100px;
+    background-color: red;
+}
+.square:nth-child(odd) {
+    background-color: blue;
+}
+.btn-primary {
+    background-color: #ffa3e8 !important;
+}
+.p-5{
+    padding: 210px !important;
+}
+
+@media (max-width: 600px) { /* below */
+    body {
+        background-color: red;
+    }
+    .desktop {
+        display: none;
+    }
+}
+@media (min-width: 600px) { /* above */
+    body {
+        background-color: red;
+    }
+    .mobile {
+        display: none;
+    }
+    .colorful {
+        animation: colorize 5s infinite;
+    }
+}
+@media (min-width: 600px) and (max-width: 900px) {  /* range */
+    body {
+        background: green;
+        font-size: clamp(1rem, 2vw, 2rem);/*Changes font sizes from smallest, preffered, largest*/
+    }
+}
+@keyframes colorize {
+    0% {
+        background-color: red;
+    }
+    50% {
+        background-color: blue;
+    }
+    100% {
+        background-color: green;
+    }
+}

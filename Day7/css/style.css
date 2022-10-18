@@ -1,0 +1,39 @@
+.bar{
+    background-color: lightgrey;
+    padding: 10px;
+    transition: all .2s ease;
+    height: 9rem;
+    overflow: hidden;
+  }
+.logo{
+    font-size: 30px;
+    text-transform: capitalize;
+    display:flex;
+    justify-content: space-between;
+}
+/*.links {
+    display: none; 
+} */
+.links a{
+    display: block;
+  }
+
+.closed{
+    height: 4rem;
+    overflow: hidden;
+    transition: all 1s ease;
+}
+@media (min-width: 992px) {
+    .burger {
+      display: none;
+    }
+    .logo{
+        display: inline;
+    }
+    .links {
+        display: inline;
+    }
+    .links a {
+        display: inline;
+      }
+}

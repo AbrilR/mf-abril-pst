@@ -38,19 +38,19 @@
 .activities{
     background-color: aqua;
 }
-@media (max-width: 1022px){
+@media (max-width: 1024px){
     .activities .card{
         width: 40%;
         margin: 3%;
     }
 }
-@media (max-width: 1083px){
+@media (max-width: 768px){
     .department .card{
         width: 40%;
         margin: 4%;
     }
 }
-@media (max-width: 540px){
+@media (max-width: 480px){
     .department .card{
         width: 100%;
         margin: 0 0 4% 0;

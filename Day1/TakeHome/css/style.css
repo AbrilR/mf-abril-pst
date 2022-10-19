@@ -1,0 +1,26 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+.content{
+    margin-top: 0;
+    margin-bottom: 4%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+footer{
+    background-color: #001D24;
+    color: white;
+    text-align: center;
+    padding: 3%;
+}
+h1{
+    position: absolute;
+    top: 10%;
+    left: 45%;
+    color: white;
+    font-size: 250%;
+}
+h2{
+    color: #0C6D78;
+}

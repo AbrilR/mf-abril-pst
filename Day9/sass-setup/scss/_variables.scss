@@ -1,0 +1,16 @@
+$primary: red;
+$secondary: aqua;
+$basic-padding: 6rem;
+$font1: 'Roboto', sans-serif;
+$font2: 'Open Sans', sans-serif;
+
+
+@mixin theme($theme: DarkGray) {
+    background: $theme;
+    box-shadow: 5px 1px 10px rgba(black, .25);
+    text-shadow: 0 0 20px rgba(yellow, .25);
+    color: rgb(25, 179, 66);
+    padding: 2rem;
+    font-family: $font2;
+}
+@import 'imgs';

@@ -1,0 +1,16 @@
+.section1 {
+    * {
+        font-family: $font1;
+    }
+    h1 {
+        color: $primary;
+        @include theme($secondary);
+    }
+    p{
+          color: $secondary;
+          padding: $basic-padding;
+    }
+    li{
+          color: $primary;
+    }
+}

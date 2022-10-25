@@ -1,25 +1,108 @@
+@import 'typography';
+@import 'variables';
+@import 'bs';
+
+
 body {
     display: block;
     overflow-x: hidden;
-    background-color: red;
+    background-color: $Arcane-lighter-blue;
+    font-size: 1rem;
 }
 nav {
-    background-color: #753D5B;
-}
-.navbar-brand img {
-    height: 30px;
-	width: 180px;
+    background-color: $Arcane-blue;
+	opacity: 90%;
+
+    .navbar-brand img {
+        height: 30px;
+        width: 180px;
+    }
 }
 .hidden {
     display:none;
 }
-/* Parallax effect  */
+// Parallax effect 
 .parallax {
-    background-image: url("../img/JinxVi.jpg");
-    height: 94vh; 
-    /* Parallax scrolling effect */
+    background-image: url("../img/JinxHeader.jpg");
+    height: 93.4vh; 
+// Parallax Scroll Effect
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+// Video
+ .embed{
+    width: 100%;
+    min-height: 48vh;
+    height: auto;
+}
+// Footer
+.footer {
+    background-color: $Arcane-blue;
+}
+a.socials {
+	color: $Arcane-white;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 20px;
+}
+a:hover {
+	color: red;
+}
+// About
+img {
+    width: 100%;
+    vertical-align: middle;
+}
+/*contact*/
+.contact {
+	border-radius: 5px;
+	background-color: #5b2f47;
+	color: $Arcane-white;
+	padding: 15px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left: 45px;
+	margin-right: 45px;
+}
+input::placeholder, textarea::placeholder {
+	color: $Arcane-white;
+}
+input[type=text], select, textarea {
+	background-color: #150C11;
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #7C4161;
+	border-radius: 5px;
+	box-sizing: border-box;
+	resize: vertical;
+	color: $Arcane-white;
+}
+input[type=submit] {
+	background-color: #30588C;
+	color: $Arcane-white;
+	padding: 15px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+input[type=submit]:hover {
+	background-color: #274972;
+}
+
+// Media Queries
+@media only screen and (max-width: 1024px) {
+    .activities .card{
+        width: 40%;
+        margin: 3%;
+    }
+}
+@media only screen and (max-width: 768px) {
+
+}
+@media only screen and (max-width: 480px) {
+    .video-section{
+        width: 100%;
+    }
 }

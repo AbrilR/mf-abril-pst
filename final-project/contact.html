@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/b8fcb94291.js" crossorigin="anonymous"></script>
+    <title>Arcane</title>
+</head>
+<body>
+    
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top p-2">
+        <a href="index.html" class="navbar-brand">
+            <img src="./img/ArcaneTitle.png" alt="Arcane Logo"class="d-inline-lock align-top m-1">
+            <span class="hidden">Arcane</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#toggleMobileMenu" aria-controls="toggleMobileMenu" aria-expanded="false" aria-label="Toggle Navigation">
+                <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="toggleMobileMenu">
+            <ul class="navbar-nav text-center ms-auto text-white fs-5 fw-bold">
+                <li><a class="nav-link" href="index.html">Home</a></li>
+                <li><a class="nav-link" href="about.html">About</a></li>
+                <li><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+    
+    <!-- Parallax -->
+    <div class="parallax"></div>
+    
+    <div class="container-fluid p-5">
+            
+        <section class="text-center my-5">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                        <h2>Riot Games</h2>
+                    <iframe class ="embed" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3306.444705972526!2d-118.45963758478551!3d34.03246198061135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2bb147c58ab95%3A0xd27aa3a914d492b4!2sRiot%20Games%20Inc.!5e0!3m2!1sen!2sus!4v1662783649616!5m2!1sen!2sus" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>   
+                </div>
+                <div class="col-md-6">
+                        <h2>Contact Me</h2>
+                        <p>If you have any questions please contact me and I'll get back to you as soon as I can!</p>
+                        <div class="contact">
+                            <form action="action-page.php">
+                        
+                            <label for="fname">First Name</label>
+                            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                        
+                            <label for="lname">Last Name</label>
+                            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                        
+                            <label for="subject">Subject</label>
+                            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                        
+                            <input type="submit" value="Submit">
+                        
+                            </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+    </div>
+    
+    <footer class="footer text-center text-lg-start">
+        <div class="text-center p-3">
+            <a class="socials" href="https://www.discord.com/" target="_blank"><i class="fa-brands fa-discord"></i></a>
+            <a class="socials" href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a class="socials" href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a class="socials" href="https://www.twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+    </footer>
+    
+</body>
+</html>

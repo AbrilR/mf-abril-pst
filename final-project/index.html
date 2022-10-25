@@ -8,13 +8,15 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <!-- Style CSS -->
     <link rel="stylesheet" href="./css/style.css">
-    <title>Document</title>
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/b8fcb94291.js" crossorigin="anonymous"></script>
+    <title>Arcane</title>
 </head>
 <body>
-
+    
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark">
-        <a href="#" class="navbar-brand">
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top p-2">
+        <a href="index.html" class="navbar-brand">
             <img src="./img/ArcaneTitle.png" alt="Arcane Logo"class="d-inline-lock align-top m-1">
             <span class="hidden">Arcane</span>
         </a>
@@ -23,88 +25,100 @@
         </button>
         <div class="collapse navbar-collapse" id="toggleMobileMenu">
             <ul class="navbar-nav text-center ms-auto text-white fs-5 fw-bold">
-                <li><a class="nav-link" href="#">Home</a></li>
-                <li><a class="nav-link" href="#">About</a></li>
-                <li><a class="nav-link" href="#">Contact</a></li>
+                <li><a class="nav-link" href="index.html">Home</a></li>
+                <li><a class="nav-link" href="about.html">About</a></li>
+                <li><a class="nav-link" href="contact.html">Contact</a></li>
             </ul>
         </div>
     </nav>
     <!-- End Navbar -->
 
-    <!-- Hero Section -->
-    <!-- <div class="p-5 bg-primary text-white">
-        <h1>Jumbotron Example</h1>
-        <p>Lorem ipsum...</p>
-    </div> -->
-    <!-- End Hero Section -->
-
-    <div class="parallax"></div>
-
-    <div style="height:1000px;background-color:red;font-size:36px">
-        Scroll Up and Down this page to see the parallax scrolling effect.
-        This div is just here to enable scrolling.
-        Tip: Try to remove the background-attachment property to remove the scrolling effect.
+    <!-- Parallax -->
+    <div class="parallax">
+        <h1 class="title">Hello World</h1>
+        <h2>this h2</h2>
+        <p>some other text</p>
     </div>
 
-    <div class="parallax1">
-        <div class="heading">
-            Parallax
+    <div class="container-fluid p-5">
+
+        <section class="text-center my-5">
+                <div class="row align-items-center">
+                    <div class="col">
+                        <h2>A House Divided</h2>
+                        <p>Two sisters. Two cities. One discovery that will change the world forever. Based on the world behind League of Legends, Arcane dives into the delicate balance between the rich, utopian city of Piltover and the seedy, oppressed underground of Zaun, unrest stirs as inventors and thieves, politicians and crime lords chafe against the constraints of a society torn asunder. As dissent reaches a fever pitch, two sisters steal an artifact of untold power. Discovery and danger intertwine as heroes are born and bonds are broken. Will this power change the world, or lead it to ruin? This is the world of Arcane. The story follows the origins of two iconic League champions-and the power that will tear them apart. Like the game on which it is based, Arcane is aimed at a "16+" audience and will deal with some more adult subject matter.</p>
+                    </div>
+                </div>
+        </section>
+        
+        <section class="text-center my-5">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h2>Arcane: League of Legends</h2>
+                    <p>Arcane is an animated action-adventure streaming television series created by Christian Linke and Alex Yee. Produced by the French animation studio fortiche under the supervision of Riot Games and distributed by Netflix, it is set in Riot's League of Legends fictional universe, and primarily focuses on sister Vi and Jinx. Following the conclusion of the first season, Riot Games and Netflix announced that a second season was in production for a post-2022 release. Arcane's first season was released to critical acclaim, with praise directed at its animation, story, worldbuilding, action sequences, character, emotional weight, music and voice acting. Some have noted the series' appeal both to casual viewers who have never played League of Legends and to long-time fans of the game. It also set the record as Netflix's highest-rated series so far within a week of its premiere, ranked first on the Netflix top 10 Chart in 52 countries, and ranked second on the chart in the United States.</p>
+                </div>
+                <div class="col-md-6">
+                    <iframe class="embed" src="https://www.youtube.com/embed/4Ps6nV4wiCE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+
+        
+
+        <section class="text-center my-5">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h2>Enemy - Imagine Dragons & J.I.D</h2>
+                    <p>Of course, "Enemy" sees Dan Reynolds buoyantly delivers thought-provoking lyrics, but the song, which was written for the animated series League of Legends: Arcane, is also anchored by Grammy-nominated rapper J.I.D's verse, giving it a hip-hop vibe. “‘Enemy’ is about reconciling internal conflict in a world where it feels impossible to trust even yourself,” Reynolds explained. “In Arcane, two sisters' lives take them on different paths and leads to a division that threatens to tear an entire city apart. Like the series, the song is meant to be both personal and a critique of a society that seems intent on creating division.”</p>
+                </div>
+                <div class="col-md-6">
+                    <iframe class="embed" src="https://www.youtube.com/embed/F5tSoaJ93ac" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+
+        <div class="text-center">
+            <h2>Favorite Scenes</h2>
         </div>
+
+        <section class="text-center">
+            <div class="row align-items-center">
+                <div class="col-md-6 col-lg-3 mt-5">
+                    <a href="https://www.youtube.com/watch?v=FXVtzYuSN7o&ab_channel=Deamon" target="_blank">
+                        <img src="IMG/JinxCaitlyn.png" alt="Jinx Caitlyn monkey drawing">
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-3 mt-5">
+                    <a href="https://www.youtube.com/watch?v=Tz1THyAhx8E&ab_channel=Dray" target="_blank">
+                        <img src="IMG/PowderExplosion.png" alt="Jinx explosion fall">
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-3 mt-5">
+                    <a href="https://www.youtube.com/watch?v=zP7AGWiw8Uw&ab_channel=LeagueofLegendshttps://www.youtube.com/watch?v=6M3LjMNCiZY&ab_channel=MalachiBloodII" target="_blank">
+                        <img src="IMG/JinxPunch.png" alt="Jinx punch">
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-3 mt-5">
+                    <a href="https://www.youtube.com/watch?v=6M3LjMNCiZY&ab_channel=MalachiBloodII" target="_blank">
+                        <img src="IMG/ZaunVi.png" alt="Vi looking over Zaun">
+                    </a>
+                </div>
+            </div>
+        </section>
+
     </div>
 
-    <section>
-        <h1 class="text-center">Parallax Website Test</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla praesentium odit obcaecati fugiat enim suscipit omnis voluptatibus sint quo ea, laudantium accusamus, laborum cum pariatur adipisci vero iste distinctio ipsam.
-        Earum qui commodi, placeat dolorem aliquam ipsa nulla. Saepe, doloremque vel, omnis corporis beatae consequatur maiores itaque ad incidunt rem ipsum tempora sit recusandae delectus iure assumenda sint, porro magni!
-        Omnis labore eaque fugiat consectetur illo reprehenderit impedit placeat amet, ipsum libero pariatur vero inventore culpa, deleniti aperiam enim mollitia nisi veritatis quam aliquam quod! Praesentium id laudantium minima illum?
-        Veritatis totam animi facere blanditiis possimus nam voluptatibus ab culpa sit suscipit corporis dolore aut eveniet corrupti eligendi, aspernatur voluptatem nisi quo error? Neque animi ab, facere perspiciatis distinctio dolore!
-        Facilis dignissimos ullam necessitatibus dolores, minima, corrupti quisquam totam quaerat neque quo in ducimus ab harum? Vitae, tenetur ad corrupti fugiat doloremque, libero ea mollitia aspernatur dicta ipsum, fugit minima.
-        Voluptatem molestiae, eveniet blanditiis quas culpa, officia sequi recusandae nesciunt fugiat odit qui doloremque quae id molestias dicta iusto. Ad, quis sunt. Obcaecati possimus omnis molestias commodi, repellat a! Velit.
-        Rerum veritatis earum dicta fugit facere! Accusamus est, explicabo officia deserunt quas harum eos culpa aliquam cumque suscipit, veritatis quos? Perspiciatis in dicta, hic nam consequuntur molestiae reprehenderit sint aliquam.
-        Voluptates, veritatis modi magni ad at fuga dolorem blanditiis ullam tempore, error rerum repellendus dolores quisquam mollitia aliquam earum velit nulla atque deserunt nam. Similique unde minus eius esse quo.
-        Exercitationem voluptas, sequi eius molestiae id, in alias beatae quod, labore distinctio ducimus quae? Soluta quaerat reprehenderit illum adipisci perferendis autem quasi laborum, qui et delectus vero tenetur sunt officiis.
-        Dolorem earum dolore odit unde in repudiandae obcaecati eos nobis beatae ullam error sequi impedit accusantium quasi aspernatur, officiis quis asperiores, fugit adipisci enim inventore fuga, alias maiores eligendi! Similique.
-        Laboriosam veritatis eaque minus, tenetur debitis quos nostrum laborum illo voluptatem aliquid fugit, velit saepe expedita, minima rerum cum sint nemo? Obcaecati, iure repellendus. Ducimus at illo unde exercitationem reprehenderit.
-        Ex, exercitationem natus minus fugit cum nulla dicta, vel rem doloribus voluptas accusantium. Delectus earum, maiores, quo non aperiam eaque odit nihil voluptatem error atque animi modi. Sequi, eum iure?
-        Aperiam perspiciatis architecto expedita tempore! Culpa sapiente odio quidem delectus? Doloribus iure dolor quo magni mollitia quibusdam aspernatur rem nostrum? Voluptatibus, quisquam. Neque veniam soluta vel aspernatur iste libero inventore?
-        Ducimus pariatur sed cupiditate harum veniam corrupti distinctio labore voluptatum! Ut cupiditate veritatis inventore assumenda suscipit. Culpa consequuntur provident rem minima consequatur nemo! Voluptas quo explicabo quaerat dicta veniam aut?
-        Optio et laboriosam quam dolorem perferendis quia eligendi, deleniti quos numquam voluptatibus odio voluptate, quidem iusto? Repellendus architecto porro et delectus dolores vel vitae aspernatur, repudiandae, dolor sit, consectetur quae.
-        Porro quibusdam, dolore saepe quisquam praesentium corrupti veritatis eligendi reiciendis ut ad explicabo! Aspernatur nihil debitis dicta est officia sint necessitatibus mollitia neque voluptate, hic repellat ea libero, rem pariatur.
-        Velit consectetur ipsum quo eius in quaerat odio optio numquam molestias officia a veritatis, non doloremque qui, adipisci quia animi, ea eaque. Ad laborum quo in nam architecto necessitatibus aperiam.
-        Doloremque, laudantium sapiente beatae consequatur excepturi dolor corporis aperiam natus? Perferendis sapiente, mollitia eligendi ea quisquam odit laudantium provident dolor tenetur vitae, iste doloribus ipsa necessitatibus harum, dicta assumenda sequi.
-        Alias debitis magni tempora! Ad cupiditate minus possimus voluptatum ut. Eum facilis molestias neque dolores debitis quas optio recusandae commodi fuga nostrum! Quasi, eveniet repellat nemo at dolore doloribus natus!
-        Voluptatem qui animi iusto blanditiis voluptate. Illum quisquam provident iste, expedita assumenda hic architecto blanditiis rem animi nihil eius, voluptatum suscipit? Cumque, quasi architecto quia officiis voluptate magnam. Tenetur, nam?
-        Molestiae eius exercitationem officiis dolorum? Esse quod officia dolores quasi, nobis mollitia debitis velit vel suscipit itaque, repellat quia aut iure tempora perferendis vitae impedit eius quibusdam voluptas labore fuga!
-        Voluptatem error nam tempore nisi quae quod et deleniti minima, eum consequuntur laudantium molestiae rem eligendi eaque architecto delectus alias aliquam nulla nesciunt vitae? Architecto recusandae iusto impedit voluptatum laborum?
-        Consequatur id expedita velit fugiat, nesciunt accusantium. A nisi nihil sed rerum tempora illum aspernatur quo, aut unde beatae velit perferendis eligendi neque, libero doloribus quod quibusdam explicabo praesentium exercitationem!
-        Beatae omnis accusamus ipsum earum officia, nisi quam, repellat repudiandae harum voluptas esse. Ab saepe dolore magni molestiae tempora ullam ipsum, quaerat labore velit omnis debitis, est voluptatem, deserunt non.
-        Molestias tenetur nam odio, reprehenderit iure distinctio! Ea, dolore fugiat placeat odio numquam necessitatibus architecto odit ipsa excepturi culpa omnis, aspernatur deserunt doloremque adipisci nam modi, atque velit quidem repellendus.
-        Consequatur quam repellendus voluptatibus sapiente aspernatur nesciunt exercitationem ipsam, necessitatibus error sint nostrum, asperiores sunt recusandae odit eveniet eius quibusdam ipsum deserunt aperiam laboriosam praesentium aliquam rerum in voluptate! Id.
-        Praesentium harum saepe voluptas quas est atque dignissimos iure tempore rem facilis laboriosam culpa esse, laudantium consequatur minima delectus quae deserunt numquam sequi suscipit libero! Debitis quos voluptates dicta nobis?
-        Sapiente possimus porro quam nam voluptas laboriosam cupiditate distinctio accusamus ullam, excepturi dignissimos. Maiores, blanditiis itaque, sit, doloremque dolorum rem molestiae ratione error minus illum velit facilis atque dignissimos dolore.
-        Non officia voluptas laudantium blanditiis aut, animi voluptatem reprehenderit corporis adipisci doloribus tempore? Exercitationem ratione facilis, voluptatibus doloremque magni voluptatum distinctio enim voluptas porro soluta, cupiditate consequatur rerum illo eum!
-        Tempora tenetur molestias, optio earum nostrum sed esse, voluptatem iste nihil incidunt, aliquam corporis. Corporis quos voluptatem atque, beatae deserunt dignissimos eveniet, doloremque eligendi qui hic placeat totam tempore molestiae.
-        Repellat neque omnis harum eaque laboriosam animi mollitia optio perferendis in! Veniam magnam officia non consectetur illo ad minima neque omnis ipsum eum id explicabo, mollitia nisi nam sunt dicta.
-        Voluptatem incidunt odit, distinctio cum nisi possimus atque aliquid. Vitae, nam labore rem alias modi placeat incidunt porro consequuntur quidem earum corrupti unde fugiat ipsum voluptas commodi asperiores dicta molestiae.
-        Et ducimus recusandae aliquam odit expedita, consequuntur quibusdam. Iure optio ut itaque. Autem, ipsam quos veritatis quae voluptatum dolorem incidunt asperiores ducimus molestiae fugit! Distinctio ex quis earum ea animi!
-        Sed eligendi rerum fugit dolores. Rerum iusto quae non vitae accusamus est maxime quaerat porro, rem cumque, nesciunt libero illum dolor? Amet maiores assumenda atque dignissimos officiis et quos aspernatur.
-        Accusamus eius quo reprehenderit ducimus maiores sequi consequatur, sapiente aperiam unde quasi earum rerum natus, at tempora suscipit eos delectus optio necessitatibus dolor similique possimus? Ipsam eius vero aspernatur quam.
-        Magnam nemo voluptatibus iusto harum odio aliquid delectus, rerum vitae facilis ratione? Tenetur officiis ad minus, molestias, consequuntur molestiae porro nihil eos veniam incidunt aut architecto harum dicta voluptatum quaerat.
-        At, soluta aperiam! Architecto non perspiciatis reiciendis odio quaerat quasi, pariatur aperiam voluptatum perferendis recusandae corrupti velit. Sit optio numquam vero, quisquam tempore saepe, fuga sapiente, iste magni quod nulla.
-        Dolore quae incidunt itaque? Libero, quaerat quas esse ipsa neque animi maxime ducimus tempore voluptatem quos in porro est distinctio quasi, architecto fugit quisquam quam minus? Possimus fugiat libero itaque!
-        Necessitatibus nemo magni quod, est nulla, dolor voluptates placeat deserunt expedita deleniti obcaecati repellat eos. Ducimus, eum! Voluptate quas possimus aspernatur numquam laudantium itaque qui quibusdam doloribus distinctio? Neque, commodi.
-        Ab tenetur tempora quo officia expedita tempore, accusantium id dicta in reprehenderit aut iste omnis consequuntur doloribus libero velit esse. Temporibus incidunt fugiat rem sed quos. Consequatur temporibus culpa odio?
-        Minima dolor quae illo suscipit nihil ullam, inventore maiores rem porro quia blanditiis assumenda architecto voluptas accusantium repellendus similique recusandae tempora numquam nemo culpa quod, deleniti cumque consectetur nam. Debitis.
-        Neque officiis nemo modi explicabo dolorum corporis. Dolorum laboriosam dolor corrupti velit nostrum nulla beatae totam? Eius dicta dolorum nostrum quis aperiam itaque fuga recusandae, nemo eum? Dolorem, labore laudantium!
-        Similique ea ipsam at corrupti debitis assumenda blanditiis natus. Aut veniam est ea iste libero iusto voluptatem eum assumenda totam eaque, maiores nam suscipit beatae quasi tempora excepturi dicta eligendi!
-        Aspernatur maiores placeat hic consequuntur aperiam voluptas odio fugiat eum error, tempora corrupti nemo quos eius dolore accusamus. Perferendis quasi facere recusandae aspernatur ullam porro quae itaque fuga atque corrupti.
-        Nobis repellendus quae voluptates vel beatae, accusantium, minima assumenda sapiente cum inventore dolores velit ex ea voluptate, vitae necessitatibus fuga voluptas. Nihil facere nostrum, cupiditate minima quidem unde debitis eius.
-        Autem reprehenderit quisquam illum exercitationem tenetur quis, quibusdam quas, magni facere dolorum laborum earum, cupiditate nam expedita maiores. In distinctio officia sint, nostrum ut dolores quos debitis iste voluptatibus aspernatur.
-        Excepturi animi vitae non saepe beatae inventore optio eaque. Officiis voluptates provident magni accusantium dignissimos amet architecto ipsa vitae beatae quis neque veritatis vero nostrum, eius recusandae sequi est corporis?
-        Dolorem voluptas eveniet pariatur facilis vitae, omnis cupiditate accusamus. Nulla velit repudiandae sed repellendus molestiae aspernatur odio, dolores ullam, quas earum perspiciatis ratione! Distinctio dolorum incidunt voluptatem, corrupti fugiat necessitatibus.
-        Nostrum autem in vitae voluptatum iure. Dolor, voluptates obcaecati! Eius reprehenderit explicabo rerum distinctio, mollitia voluptate, voluptatibus iste quidem aut ab similique. Libero minus expedita, ipsam quasi delectus beatae id!
-        Beatae aliquam sequi aspernatur nesciunt atque ipsum dolores similique sunt commodi tenetur, pariatur molestiae assumenda tempora perspiciatis. Enim impedit tempore consequuntur necessitatibus exercitationem repellendus blanditiis eligendi cumque, ullam sint sunt?</p>
-    </section>
+    <footer class="footer text-lg-start">
+        <div class="text-center p-3">
+            <a class="socials" href="https://www.discord.com/" target="_blank"><i class="fa-brands fa-discord"></i></a>
+            <a class="socials" href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a class="socials" href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a class="socials" href="https://www.twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+        <div class="text-center">
+            <a class="socials" href="#" target="_blank"><i class="fa-brands fa-github"></i></i></a>
+        </div>
+    </footer>
 
 </body>
 </html>

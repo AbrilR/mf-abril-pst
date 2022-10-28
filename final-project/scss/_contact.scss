@@ -1,6 +1,6 @@
 .contact {
 	border-radius: 5px;
-	background-color: #5b2f47;
+	background-color: $Arcane-dark-blue;
 	color: $Arcane-white;
 	padding: 15px;
     min-height: 48vh;
@@ -10,17 +10,17 @@ input::placeholder, textarea::placeholder {
 	color: $Arcane-white;
 }
 input[type=text], select, textarea {
-	background-color: #150C11;
+	background-color: #0D1416;
 	width: 100%;
 	padding: 10px;
-	border: 1px solid #7C4161;
+	border: 1px solid #384D59;
 	border-radius: 5px;
 	box-sizing: border-box;
 	resize: vertical;
 	color: $Arcane-white;
 }
 input[type=submit] {
-	background-color: #30588C;
+	background-color: #384D59;
 	color: $Arcane-white;
 	padding: 15px 20px;
 	border: none;
@@ -28,5 +28,5 @@ input[type=submit] {
 	cursor: pointer;
 }
 input[type=submit]:hover {
-	background-color: #274972;
+	background-color: $Arcane-light-blue;
 }

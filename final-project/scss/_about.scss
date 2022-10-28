@@ -1,0 +1,49 @@
+img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+.image-hover-text
+{
+	position: relative;
+	display: inline-block;
+	width: auto;
+	height: auto;
+	transition: all 0.2s linear;
+	margin: 15px;
+	color: #ffff;
+}
+.hover-text
+{
+	position: absolute;
+	top: 0;
+	width: 100%;  
+	height: 100%;
+	opacity: 0;
+	transition: 0.2s linear;
+}
+.hover-text:hover 
+{
+	opacity: 90%;
+}
+.hover-text-bubble
+{
+	position: relative;
+	box-sizing: border-box;
+	top: 0; 
+    left: 0; 
+    right: 100%;
+	height: 100%;
+	text-align: center;
+	background: #30588C;
+	padding: 30% 10%;
+	overflow: hidden;
+	font-size: 15px;
+	text-align: center;
+	word-wrap: break-word;
+}
+.hover-text .hover-text-title
+{
+	font-size: 25px;
+	display: block;
+}

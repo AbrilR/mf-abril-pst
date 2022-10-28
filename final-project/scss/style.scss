@@ -1,16 +1,19 @@
-@import 'typography';
 @import 'variables';
 @import 'bs';
-
+@import 'typography';
+@import 'contact';
+@import 'about';
+@import 'carousel';
 
 body {
     display: block;
     overflow-x: hidden;
-    background-color: $Arcane-lighter-blue;
+    background-color: $Arcane-blue;
     font-size: 1rem;
+	font-family: 'Raleway', sans-serif;
 }
 nav {
-    background-color: $Arcane-blue;
+    background-color: $Arcane-dark-blue;
 	opacity: 90%;
 
     .navbar-brand img {
@@ -35,11 +38,10 @@ nav {
  .embed{
     width: 100%;
     min-height: 48vh;
-    height: auto;
 }
 // Footer
 .footer {
-    background-color: $Arcane-blue;
+    background-color: $Arcane-dark-blue;
 }
 a.socials {
 	color: $Arcane-white;
@@ -48,61 +50,5 @@ a.socials {
 	font-size: 20px;
 }
 a:hover {
-	color: red;
-}
-// About
-img {
-    width: 100%;
-    vertical-align: middle;
-}
-/*contact*/
-.contact {
-	border-radius: 5px;
-	background-color: #5b2f47;
-	color: $Arcane-white;
-	padding: 15px;
-	margin-top: 15px;
-	margin-bottom: 15px;
-	margin-left: 45px;
-	margin-right: 45px;
-}
-input::placeholder, textarea::placeholder {
-	color: $Arcane-white;
-}
-input[type=text], select, textarea {
-	background-color: #150C11;
-	width: 100%;
-	padding: 10px;
-	border: 1px solid #7C4161;
-	border-radius: 5px;
-	box-sizing: border-box;
-	resize: vertical;
-	color: $Arcane-white;
-}
-input[type=submit] {
-	background-color: #30588C;
-	color: $Arcane-white;
-	padding: 15px 20px;
-	border: none;
-	border-radius: 4px;
-	cursor: pointer;
-}
-input[type=submit]:hover {
-	background-color: #274972;
-}
-
-// Media Queries
-@media only screen and (max-width: 1024px) {
-    .activities .card{
-        width: 40%;
-        margin: 3%;
-    }
-}
-@media only screen and (max-width: 768px) {
-
-}
-@media only screen and (max-width: 480px) {
-    .video-section{
-        width: 100%;
-    }
+	color: $Arcane-light-blue;
 }

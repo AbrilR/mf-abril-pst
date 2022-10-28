@@ -1,0 +1,56 @@
+// Carousel
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	background-color: #0d1416;
+	font-family: 'Finger Paint', cursive;
+}
+.arrow-left {
+    font-size: 2rem;
+    position: absolute;
+	text-align: center;
+    left: 5%;
+	height: 55px;
+	width: 50px;
+    border: 1px solid #384D59;
+    background-color: #080D0F;
+    color: #384D59;
+    padding: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.arrow-right {
+    font-size: 2rem;
+    position: absolute;
+	text-align: center;
+    right: 5%;
+	height: 55px;
+	width: 50px;
+    border: 1px solid #384D59;
+    background-color: #080D0F;
+    color: #384D59;
+    padding: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.carousel {
+	min-height: 400px;
+
+	&_text{
+		background-color: #080d0f;
+		min-height: inherit;
+	}
+	&_img {
+		display: flex;
+		flex-direction: row;
+		justify-content: end;
+		@media only screen and (max-width: 768px) {
+			justify-content: center;
+		}
+		img {
+			max-height: 100%;
+			width: auto;
+		}
+	}
+}

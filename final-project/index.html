@@ -10,6 +10,17 @@
     <link rel="stylesheet" href="./css/style.css">
     <!-- Fontawesome -->
     <script src="https://kit.fontawesome.com/b8fcb94291.js" crossorigin="anonymous"></script>
+    <!--Raleway-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <!--Finger Paint Font-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/b8fcb94291.js" crossorigin="anonymous"></script>
+
+    <script defer src="./js/main.js"></script>
     <title>Arcane</title>
 </head>
 <body>
@@ -34,11 +45,7 @@
     <!-- End Navbar -->
 
     <!-- Parallax -->
-    <div class="parallax">
-        <h1 class="title">Hello World</h1>
-        <h2>this h2</h2>
-        <p>some other text</p>
-    </div>
+    <div class="parallax"></div>
 
     <div class="container-fluid p-5">
 
@@ -51,6 +58,7 @@
                 </div>
         </section>
         
+        <!-- Arcane Trailer -->
         <section class="text-center my-5">
             <div class="row align-items-center">
                 <div class="col-md-6">
@@ -62,9 +70,25 @@
                 </div>
             </div>
         </section>
+        <!-- End Arcane Trailer -->
+    </div>
+    
+        <!-- Character Bio Carousel -->
+        <section class="hero carousel row justify-content-center">
+            <button class="arrow-left p-0" onclick="previousImage()"><i class="fa-solid fa-arrow-left"></i></button>
+            <div class="col-md-5 col-lg-4 carousel_img p-0">
+                <img id="img" src="" alt=""> 
+            </div>
+            <div class="col-md-5 col-lg-4 carousel_text text-center d-flex flex-column justify-content-center">
+                <h2 id="slidertitle"></h2>
+                <p id="slidertext"></p>
+            </div>
+            <button class="arrow-right p-0" onclick="changeImage()"><i class="fa-solid fa-arrow-right"></i></button>
+        </section>
+        <!-- End Character Bio Carousel--> 
 
-        
-
+    <div class="container-fluid p-5">
+        <!-- Enemy Video -->
         <section class="text-center my-5">
             <div class="row align-items-center">
                 <div class="col-md-6">
@@ -76,13 +100,15 @@
                 </div>
             </div>
         </section>
+        <!-- End Video -->
 
+        <!-- Favorite Scenes -->
         <div class="text-center">
-            <h2>Favorite Scenes</h2>
+            <h3>Favorite Scenes</h3>
         </div>
 
         <section class="text-center">
-            <div class="row align-items-center">
+            <div class="row align-items-center mb-5">
                 <div class="col-md-6 col-lg-3 mt-5">
                     <a href="https://www.youtube.com/watch?v=FXVtzYuSN7o&ab_channel=Deamon" target="_blank">
                         <img src="IMG/JinxCaitlyn.png" alt="Jinx Caitlyn monkey drawing">
@@ -105,6 +131,7 @@
                 </div>
             </div>
         </section>
+        <!-- End Favorite Scenes -->
 
     </div>
 
@@ -114,9 +141,7 @@
             <a class="socials" href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
             <a class="socials" href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
             <a class="socials" href="https://www.twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
-        </div>
-        <div class="text-center">
-            <a class="socials" href="#" target="_blank"><i class="fa-brands fa-github"></i></i></a>
+            <a style="float:right" class="socials" href="#" target="_blank"><i class="fa-brands fa-github"></i></i></a>
         </div>
     </footer>
 
